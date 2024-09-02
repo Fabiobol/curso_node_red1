@@ -1,0 +1,12 @@
+{
+    "name": "Curso_node_RED",
+    "description": "Esta es una prueba de uso de proyecto en Node-RED",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
