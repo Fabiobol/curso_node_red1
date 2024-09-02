@@ -1689,6 +1689,71 @@
         "wires": []
     },
     {
+        "id": "94f3c6469ada3ea3",
+        "type": "inject",
+        "z": "39125ac1fe1a8cad",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 800,
+        "wires": [
+            [
+                "24242352179903c0"
+            ]
+        ]
+    },
+    {
+        "id": "24242352179903c0",
+        "type": "function",
+        "z": "39125ac1fe1a8cad",
+        "name": "function 22",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 800,
+        "wires": [
+            [
+                "e7477d24fd593070"
+            ]
+        ]
+    },
+    {
+        "id": "e7477d24fd593070",
+        "type": "debug",
+        "z": "39125ac1fe1a8cad",
+        "name": "debug 74",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 800,
+        "wires": []
+    },
+    {
         "id": "99b216e1558a4031",
         "type": "telegram receiver",
         "z": "e5d953217c4be02e",
